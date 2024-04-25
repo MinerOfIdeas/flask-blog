@@ -23,7 +23,7 @@ Log.app("Starting...")
 
 # Importing necessary modules and classes
 from modules import (
-    Flask,
+    Flask
 )  # Importing Flask class for creating the Flask application instance
 
 # Importing blueprints for different routes

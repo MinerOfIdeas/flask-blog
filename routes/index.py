@@ -18,6 +18,7 @@ from modules import (
     Blueprint,  # Importing the Blueprint class for creating Flask blueprints
     DB_POSTS_ROOT,  # Importing the constant for the path to the posts database
     render_template,  # Importing the render_template function for rendering Jinja templates
+    url_for, # Importing the url_for function for generating URLs for Flask routes
 )
 
 # Create a blueprint for the home page with the name "index" and the current module name
